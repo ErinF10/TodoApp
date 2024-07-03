@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #ebede9;
+}
+.navbar {
+  background-color: #292520f5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+}
+
+.greeter {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: #77856ec6;
+  padding: 5px 5px 5px 20px;
+  height: 90px;
+}
+
+button {
+  margin: 15px 15px 15px 20px;
+  background-color: white;
+  box-shadow: 0 0 16px 0 #a0b3e8;
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 10px 20px 20px 20px;
+  box-shadow: 0 0 16px 0 #a0b3e890;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.todo-item {
+  padding-left: 15px;
+  display: flex;
+  border-bottom: 1px solid #cecece;
+}
+
+.jokes {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 10px 10px 0px 20px;
+  box-shadow: 0 0 16px 0 #a0b3e889;
+  border-radius: 8px;
+  background-color: white;
+}
+
+
+
+footer {
+  background-color: #292520f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+  width: 100%;
+  position: absolute; 
+  bottom: 0; 
+  padding: 1.5%
+}
+
+br {
+  padding: 0px;
+}
+
