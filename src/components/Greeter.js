@@ -18,7 +18,7 @@ function Greeter(props) {
         greeting = `Good Evening, ${props.username}!`
         styles.color = "#191E24"
     } else {
-        greeting = "!! GO TO BED >:( "
+        greeting = "!! GO TO BED >:( !!"
         // styles.color = "red"
         // styles.backgroundColor = "red"
     }

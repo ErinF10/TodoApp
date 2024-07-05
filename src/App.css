@@ -22,6 +22,12 @@ body {
   height: 90px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   margin: 15px 15px 15px 20px;
   background-color: white;

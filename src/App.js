@@ -1,5 +1,7 @@
 import React from "react"
 import {useState} from 'react'
+import { Link } from 'react-router-dom';
+
 
 // Import custom components
 import Footer from "./components/Footer"
@@ -51,6 +53,9 @@ function App() {
       <div className="button-container">
         <button onClick={encourage}>Need some encouragement?</button>
         <button onClick={() => pickRandomTask(todos)}>Pick a random task</button>
+        <Link to="/user-info">
+          <button>User Info</button>
+        </Link>
       </div>
       <div className="todo-list">
         {todoComponents}
