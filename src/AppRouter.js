@@ -9,6 +9,7 @@ function AppRouter() {
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/todo-app" element={<App />} />
         <Route path="/user-info" element={<UserInfo />} />
       </Routes>
     </Router>
