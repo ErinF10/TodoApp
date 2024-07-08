@@ -46,7 +46,7 @@ function App() {
   return (
     
     <div>
-      <Header/>
+      {/* <Header/> */}
       <div className="greeter">
         <Greeter username="Erin"/>
       </div>
@@ -66,7 +66,7 @@ function App() {
       <div className="jokes">
         <Joke />
       </div>
-      <Footer/> 
+      {/* <Footer/>  */}
     </div>
   )
 }

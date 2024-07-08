@@ -6,17 +6,18 @@ function Greeter(props) {
     let greeting = "Error"
     const styles = {
         fontSize: 40,
+        color: "#ffffff",
     }
 
     if (hour < 12) {
         greeting = `Good Morning, ${props.username}!`
-        styles.color = "#191E24"
+        // styles.color = "#191E24"
     } else if (hour < 17) {
         greeting = `Good Afternoon, ${props.username}!`
-        styles.color = "#191E24"
+        // styles.color = "#191E24"
     } else if (hour < 22) {
         greeting = `Good Evening, ${props.username}!`
-        styles.color = "#191E24"
+        // styles.color = "#191E24"
     } else {
         greeting = "!! GO TO BED >:( !!"
         // styles.color = "red"
