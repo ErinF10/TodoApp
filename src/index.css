@@ -1,4 +1,102 @@
-/* body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: rgb(223, 214, 198);
+  background-image: url(./assets/images/totoro.jpg);
+  background-size: 102%;
+  background-position-y: 40%;
+}
+.navbar {
+  background-color: #292520f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+}
+
+.greeter {
+  font-size: 250%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  background: 
+  linear-gradient(rgb(104, 117, 97), rgb(223, 214, 198));
+  /* url("./assets/images/princess-mononoke.jpg"); */
+  background-size: 100%;
+  background-position: center;
+  padding: 5px 5px 5px 20px;
+  height: 200px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  /* line-height: 0; */
+  margin: 0px 15px 25px 20px;
+
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 16px 0 rgba(119, 133, 110, 0.8);
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 20px 20px;
+
+  box-shadow: 0 0 16px 0 rgba(119, 133, 110, 0.8);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.todo-item {
+  padding: 15px;
+  display: flex;
+  border-bottom: 1px solid #cecece;
+}
+
+.jokes {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 10px 10px 0px 20px;
+  box-shadow: 0 0 16px 0 rgba(119, 133, 110, .8);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+footer {
+  background-color: #292520f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+  width: 100%;
+  position: absolute; 
+  bottom: 0; 
+  padding: 1.5%
+}
+
+br {
+  padding: 0px;
+}
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +108,4 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}

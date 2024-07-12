@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+
 import './index.css';
-import './App.css';
 import AppRouter from './AppRouter';
 // import reportWebVitals from './reportWebVitals';
 // import MyInfo from './Learning react/Practice Problems/Problem 2/MyInfo';

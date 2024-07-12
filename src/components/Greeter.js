@@ -4,10 +4,10 @@ function Greeter(props) {
     const date = new Date()
     const hour = date.getHours()
     let greeting = "Error"
-    const styles = {
-        fontSize: 40,
-        color: "#ffffff",
-    }
+    // const styles = {
+    //     fontSize: 40,
+    //     color: "#ffffff",
+    // }
 
     if (hour < 12) {
         greeting = `Good Morning, ${props.username}!`
@@ -26,7 +26,8 @@ function Greeter(props) {
     
    
     return (
-        <div style={styles}>
+        // <div style={styles}>
+        <div>
             {greeting} 
         </div>
     )
