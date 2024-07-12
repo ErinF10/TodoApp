@@ -63,9 +63,9 @@ function App() {
       {/* <div className="jokes">
         {jokeComponents}
       </div> */}
-      <div className="jokes">
+      {/* <div className="jokes">
         <Joke />
-      </div>
+      </div> */}
       {/* <Footer/>  */}
     </div>
   )
